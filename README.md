@@ -61,7 +61,7 @@ The app needs a `.env` file to connect to KastKard's cloud services (Supabase au
 | macOS | `~/Library/Application Support/KastKard Desktop/.env` |
 | Windows | `%APPDATA%\KastKard Desktop\.env` |
 
-On macOS, `~/Library` is hidden by default. In Finder press **Cmd + Shift + G** and paste the path to navigate there.
+On macOS, `~/Library` is hidden by default. In Finder press **Cmd + Shift + G** and paste the path to navigate there. Alternatively, you can use **Cmd + J** to open options from user home directory in Finder and check 'Show Library Folder' for permenant solution.
 
 On Windows, press **Win + R**, type `%APPDATA%\KastKard Desktop\` and press Enter.
 
