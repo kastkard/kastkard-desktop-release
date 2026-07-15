@@ -39,7 +39,7 @@ KastKard Desktop is an all-in-one back-office tool that runs on Mac and Windows.
      - `KastKard Desktop-x.y.z-arm64.dmg` → Apple Silicon (M1/M2/M3/M4)
      - `KastKard Desktop-x.y.z-x64.dmg` → Intel Mac
    - **Windows** — download `KastKard Desktop Setup x.y.z.exe`
-3. Run the installer and follow the prompts
+3. Run the installer and follow the prompts (Windows will fail to run since .env is missing)
 4. **Before launching**, place the `.env` configuration file in the correct location (see below)
 
 ### macOS note
@@ -59,11 +59,11 @@ The app needs a `.env` file to connect to KastKard's cloud services (Supabase au
 | Operating system | Path |
 |---|---|
 | macOS | `~/Library/Application Support/KastKard Desktop/.env` |
-| Windows | `%APPDATA%\KastKard Desktop\.env` |
+| Windows | `%AppData%\kastkard-desktop\.env` |
 
 On macOS, `~/Library` is hidden by default. In Finder press **Cmd + Shift + G** and paste the path to navigate there. Alternatively, you can use **Cmd + J** to open options from user home directory in Finder and check 'Show Library Folder' for permenant solution.
 
-On Windows, press **Win + R**, type `%APPDATA%\KastKard Desktop\` and press Enter.
+On Windows, press **Win + R**, type `%AppData%\kastkard-desktop\` and press Enter.
 
 ### What goes in the `.env` file
 
